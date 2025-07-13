@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+input, button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 20px;
+  padding: 0px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode li {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode button,
+.dark-mode input {
+  background-color: #333;
+  color: white;
+}
